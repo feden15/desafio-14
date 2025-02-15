@@ -12,7 +12,7 @@ const Producto = ({ nombre, descripcion }) => {
 
             <button
                 onClick={() => setShowDescripcion(!showDescripcion)}
-                className="py-2 px-4 bg-green-500 hover:bg-green-700 text-white rounded-lg mt-4 m-auto"
+                className="py-2 px-4 bg-green-500 hover:bg-green-700 text-white rounded-lg mt-2 m-auto"
             >
                 {showDescripcion ? "Ver menos" : "Ver más"}
             </button>
