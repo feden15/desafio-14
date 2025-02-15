@@ -14,7 +14,7 @@ const App = () => {
       <LikeButton/>
       <hr className="m-2"/>
       
-      <Producto nombre="Computadora" descripcion="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quisquam."/>
+      <Producto nombre="Computadora" descripcion="Dispositivo electrónico que procesa información mediante hardware y software"/>
       <hr className="m-2"/>
 
       <Contador limite={5}/>
