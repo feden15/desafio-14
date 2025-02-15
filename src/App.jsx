@@ -1,8 +1,12 @@
 // rafce
 
+import UserCard from "./components/UserCard"
+
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <UserCard nombre="Federico Nova" edad="25" profesion="Desarrollador Web"/>
+    </>
   )
 }
 
